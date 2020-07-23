@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeEssentials", "TimeEssen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeEssentials.Core", "TimeEssentials.Core\TimeEssentials.Core.csproj", "{C888B53D-94B3-470E-86B7-552CBB462523}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeEssentials.Data", "TimeEssentials.Data\TimeEssentials.Data.csproj", "{5AB63645-5329-4917-B9BE-A8C82B9A2C9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C888B53D-94B3-470E-86B7-552CBB462523}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C888B53D-94B3-470E-86B7-552CBB462523}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C888B53D-94B3-470E-86B7-552CBB462523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AB63645-5329-4917-B9BE-A8C82B9A2C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB63645-5329-4917-B9BE-A8C82B9A2C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB63645-5329-4917-B9BE-A8C82B9A2C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB63645-5329-4917-B9BE-A8C82B9A2C9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
