@@ -6,3 +6,14 @@
 <div class="text-center">
     <h1 class="display-4">Equilibrium</h1>
 </div>
+
+<table class="table">
+    @foreach (var item in Model.Equilibria)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Cathegory</td>
+            <td>@item.Description</td>
+        </tr>
+    }
+</table>

@@ -7,6 +7,6 @@ namespace TimeEssentials.Data
 {
     public interface IBaseEssentialsData
     {
-        IEnumerable<BaseEssentials> GetAll();
+        IEnumerable<BaseEssentials> GetAllEquilibrium();
     }
 }
